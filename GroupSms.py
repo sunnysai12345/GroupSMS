@@ -9,7 +9,8 @@ username = raw_input('Enter mobile number:')
 passwd = getpass()
 message = raw_input('Enter Message:')
 #Fill the list with Recipients
-num = ['','','',]
+x=raw_input('Enter Mobile numbers seperated with comma:')
+num=x.split(',')
 message = "+".join(message.split(' '))
  
 #Logging into the SMS Site
